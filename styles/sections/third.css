@@ -1,0 +1,25 @@
+.third
+{
+    background-color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    color:black;
+    padding-top: 30px;
+}
+.interviews
+{
+    margin-top: 40px;
+}
+.interviews iframe{
+    width: 100%;
+    margin-bottom: 20px;
+    border-style: double;
+    border-color: #fdc40a;
+    border-width: 5px;
+}
+@media screen and (max-width: 959px)
+{
+    .spc{
+        margin-bottom: 5%;
+    }
+}
