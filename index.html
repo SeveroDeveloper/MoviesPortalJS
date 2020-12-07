@@ -19,6 +19,7 @@
     <script src="https://kit.fontawesome.com/bad9083f48.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./images/logo1.png">
+
 </head>
 
 <body>
@@ -33,23 +34,15 @@
                 </label>
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">entrevista</a>
+                        <a class="nav-link" href="#first">nos cinemas</a>
                         <span>|</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">em destaque</a>
+                        <a class="nav-link" href="#second">em destaque</a>
                         <span>|</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">avaliações</a>
-                        <span>|</span>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">entrevistas e makingof</a>
-                        <span>|</span>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">novidades</a>
+                        <a class="nav-link" href="#third">bem avaliados</a>
                     </li>
                 </ul>
                 <div class="search" id="small">
@@ -76,104 +69,60 @@
     </header>
 
     <main class="container all-sections col-12">
-        <section class="first">
+        <section class="first" id="first">
             <section class="row title">
                 <div class="col-12">
-                    <h1 class>Lançamentos</h1>
+                    <h1 class>Nos Cinemas - clique nas imagens e veja trailers</h1>
                 </div>
             </section>
 
             <section class="row">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-
                         <div class="carousel-item active">
                             <div class="carousel-content">
-
-                                <div class="c-img"><iframe width="560" height="315"
-                                        src="https://www.youtube.com/embed/2hY0ak-hb_c" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe></div>
-
-
-                                <aside class="carousel-details">
-                                    <h3>A Jornada</h3>
-                                    <p><b>Sinopse:</b> Uma astronauta francesa em treinamento é convocada para uma
-                                        missão oficial. Ela precisa deixar sua filha de sete anos com o pai e seguir
-                                        viagem para o espaço junto com outros dois homens, um americano e outro russo.
-                                        Desde o anúncio de sua convocação até depois da partida, ela passa a lidar
-                                        diariamente com as dificuldades de ser mulher em um mundo dominado por homens
-                                        incapazes de compreender os sentimentos ligados à maternidade e ao íntimo
-                                        feminino.
-                                    </p>
-                                    <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-                                        <p><b>Direção:</b> Alice Winocour</p>
-                                        <p><b>Roteiro:</b> Alice Winocour</p>
-                                        <p><b>Estreia:</b> 2020</p>
+                                <a id="link1" href="#">
+                                    <div class="c-img" id="img1">
                                     </div>
-                                    <p><b>Elenco:</b><br><br> Eva Green, Matt Dillon, Alexei Fateev</p>
-                                    <p><b>Avaliação:</b><br><br><i class="fas fa-star yellow"></i><i
-                                            class="fas fa-star yellow"></i><i class="fas fa-star yellow"></i><i
-                                            class="fas fa-star yellow"></i><i class="far fa-star"></i>
+                                </a>
+                                <aside class="carousel-details">
+                                    <h3 id="title1"></h3>
+                                    <p id="text1">
+                                    </p>
+                                    <p id="date1"></p>
+                                    <p id="rate1">
                                     </p>
                                 </aside>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="carousel-content">
-                                <div class="c-img"><iframe width="560" height="315"
-                                        src="https://www.youtube.com/embed/J4iByAqQrQ8" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe></div>
-
-                                <aside class="carousel-details">
-                                    <h3>Os Novos Mutantes</h3>
-                                    <p><b>Sinopse:</b> Cinco jovens mutantes (Maisie Williams, Blu Hunt, Anya
-                                        Taylor-Joy, Charlie Heaton e Henry Zaga) descobrem o alcance de seus poderes e
-                                        lidam com traumas do passado. No entanto, eles são mantidos presos contra a
-                                        vontade em uma instituição controlada pela Dr. Cecilia Reyes (Alice Braga).
-                                        Enquanto a médica promete controlar as habilidades do grupo, nada é o que
-                                        parece.
-                                    </p>
-                                    <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-                                        <p><b>Direção:</b> Josh Boone</p>
-                                        <p><b>Roteiro:</b> Knate Lee</p>
-                                        <p><b>Estreia:</b> 2020</p>
+                                <a id="link2" href="#">
+                                    <div class="c-img" id="img2">
                                     </div>
-                                    <p><b>Elenco:</b><br><br> Maisie Williams, Anya Taylor-Joy, Charlie Heaton</p>
-                                    <p><b>Avaliação:</b><br><br><i class="fas fa-star yellow"></i><i
-                                            class="fas fa-star yellow"></i><i class="fas fa-star yellow"></i><i
-                                            class="far fa-star"></i><i class="far fa-star"></i>
+                                </a>
+                                <aside class="carousel-details">
+                                    <h3 id="title2"></h3>
+                                    <p id="text2">
+                                    </p>
+                                    <p id="date2"></p>
+                                    <p id="rate2">
                                     </p>
                                 </aside>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="carousel-content">
-                                <div class="c-img"><iframe width="560" height="315"
-                                        src="https://www.youtube.com/embed/FlriFMTIPOg" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe></div>
-
-
-                                <aside class="carousel-details">
-                                    <h3>007 - Sem Tempo Para Morrer</h3>
-                                    <p><b>Sinopse:</b> Em 007 - Sem Tempo Para Morrer, o famoso espião James Bond
-                                        (Daniel Craig) deixou o serviço e está vivendo de forma calma e pacífica na
-                                        Jamaica. Como tudo que é bom dura pouco, quando o enigmático Safin (Rami Malek)
-                                        aparece com uma tecnologia perigosa, seu amigo da CIA, Felix Leiter (Jeffrey
-                                        Wright), pede ajuda. Então, o antigo 007 precisa abandonar seu novo modo de vida
-                                        para ingressar na missão.
-                                    </p>
-                                    <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-                                        <p><b>Direção:</b> Cary Joji Fukunaga</p>
-                                        <p><b>Roteiro:</b> Cary Joji Fukunaga, Robert Wade</p>
-                                        <p><b>Estreia:</b> 2020</p>
+                                <a id="link3" href="#">
+                                    <div class="c-img" id="img3">
                                     </div>
-                                    <p><b>Elenco:</b><br><br>: Daniel Craig, Rami Malek, Léa Seydoux</p>
-                                    <p><b>Avaliação:</b><br><br><i class="fas fa-star yellow"></i><i
-                                            class="fas fa-star yellow"></i><i class="fas fa-star yellow"></i><i
-                                            class="fas fa-star yellow"></i><i class="far fa-star"></i>
+                                </a>
+                                <aside class="carousel-details">
+                                    <h3 id="title3"></h3>
+                                    <p id="text3">
+                                    </p>
+                                    <p id="date3"></p>
+                                    <p id="rate3">
                                     </p>
                                 </aside>
                             </div>
@@ -192,172 +141,57 @@
             </section>
         </section>
 
-        <section class="second">
+        <section class="second" id="second">
             <section class="row switcher">
                 <div class="col-8">
                     <h1>Em destaque</h1>
                 </div>
-                <div class="col-4">
-                    <div class="dropdown">
-                        <button class="dropdown dropb" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            <div>Categoria: TODOS</div><i class="fas fa-chevron-down"></i>
-                        </button>
-                        <div class="dropdown-menu drop" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Aventura</a>
-                            <a class="dropdown-item" href="#">Romance</a>
-                            <a class="dropdown-item" href="#">Comédia</a>
-                        </div>
-                    </div>
-                </div>
             </section>
 
             <section class="row second-posters">
-                <div class="poster">
+                <div class="poster" id="poster1">
                     <img src="./images/second-grid-poster1.png" alt="poster">
                 </div>
-                <div class="poster">
+                <div class="poster" id="poster2">
                     <img src="./images/second-grid-poster2.png" alt="poster">
                 </div>
-                <div class="poster">
+                <div class="poster" id="poster3">
                     <img src="./images/second-grid-poster3.png" alt="poster">
                 </div>
-                <div class="poster">
+                <div class="poster" id="poster4">
                     <img src="./images/second-grid-poster4.png" alt="poster">
                 </div>
             </section>
+            <a id="moreb" href="#">
+                <div class="row more">
 
-            <div class="row more">
-                <button class=" moreb"><i class="fas fa-plus"></i>
-                    <div>Carregar mais
-                        filmes</div>
-                </button>
-                <button class="moreb sm"><i class="fas fa-plus"></i></button>
-            </div>
+                    <button class=" moreb"><i class="fas fa-plus"></i>
+                        <div>Carregar mais
+                            filmes</div>
+                    </button>
 
-            <div class="row">
-                <div class="col-12">
-                    <h1>Últimas Avaliações</h1>
-                </div>
-            </div>
 
-            <section class="row evaluations">
-                <div class="pessoa">
-                    <img src="./images/p1.jpg" alt="pessoa">
+                    <button class="moreb sm"><i class="fas fa-plus"></i></button>
                 </div>
-                <div class="  rate">
-                    <h4>Sara Gesinberg</h4>
-                    <p><b>Avaliação:</b> Assisti recentemente "As Horas", perfeito, sem palavras!</p>
-                    <div style="display: flex; justify-content: space-between;">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="fas fa-star"></i>
-                        <span>15/09</span>
-                    </div>
-
-                </div>
-                <div class="pessoa">
-                    <img src="./images/p2.jpg" alt="pessoa">
-                </div>
-                <div class=" rate">
-                    <h4>Tiago Amaral</h4>
-                    <p><b>Avaliação:</b> Os Vingadores: O Ultimato teve um hype gigantesco que acabou decepcionando por
-                        muita expectativa, minha opinião.</p>
-                    <div style="display: flex; justify-content: space-between;">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="far fa-star"></i>
-                        <span>15/09</span>
-                    </div>
-                </div>
-                <div class="pessoa">
-                    <img src="./images/p3.jpg" alt="pessoa">
-                </div>
-                <div class=" rate">
-                    <h4>Ju Mendonça</h4>
-                    <p><b>Avaliação:</b> O que foi esse Capitã Marvel? Fui ver um filme de heróis e acabei vendo uma
-                        exaltação de ideologia constante e chata.</p>
-                    <div style="display: flex; justify-content: space-between;">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i
-                            class="far fa-star"></i><i class="far fa-star"></i>
-                        <span>15/09</span>
-                    </div>
-                </div>
-            </section>
-            <div class="row more">
-                <button class="moreb" style="width: 20%;"><i class="fas fa-plus"></i>
-                    <div>Carregar mais
-                        avaliações</div>
-                </button>
-                <button class="moreb sm"><i class="fas fa-plus"></i></button>
-            </div>
-
+            </a>
         </section>
 
-        <section class="third">
-            <div class="row">
-                <div class="col-12">
-                    <h1>Entrevistas & Making of</h1>
-                </div>
-            </div>
-
-            <div class="row interviews">
-                <div class="col-lg-4 col-12 spc">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_y7iJ8D6qCA" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <h5>
-                        <b">Filme:</b> Enola Holmes
-                    </h5>
-                    <span><b>Direção:</b> Harry Bradbeer</span><br>
-                    <span><b>Roteiro:</b> Jack Thorne</span>
-                    <span style="margin-left: 5px;"><b>Estreia:</b> 2020</span>
-                </div>
-                <div class="col-lg-4 col-12 spc">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LU5LqQrTzsI" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <h5><b>Filme:</b>The Half of It</h5>
-                    <span><b>Diretor:</b> Alice Wu</span><br>
-                    <span><b>Roteiro:</b> Alice Wu</span>
-                    <span style="margin-left: 5px;"><b>Estreia:</b> 2020</span>
-                </div>
-                <div class="col-lg-4 col-12">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mvpeGP--lUw" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <h5><b>Filme:</b> Sergio</h5>
-                    <span><b>Diretor:</b> Greg Barker</span><br>
-                    <span><b>Roteiro:</b> Craig Borten</span>
-                    <span style="margin-left: 5px;"><b>Estreia:</b> 2020</span>
-                </div>
-            </div>
-
-            <div class="row more">
-                <button class="moreb" style="background-color: #fdc40a!important; box-shadow:none; "><i
-                        class="fas fa-plus"></i>
-                    <div>Carregar mais
-                        filmes</div>
-                </button>
-                <button class="moreb sm"><i class="fas fa-plus"></i></button>
-            </div>
-        </section>
-
-        <section class="fourth">
+        <section class="fourth" id="third">
             <div class="row">
                 <div class="col-12 col-lg-8">
-                    <h1>Novidades</h1>
+                    <h1>A Crítica Amou</h1>
                     <div class="news">
                         <div>
                             <div class="new">
-                                <div class="img"><img src="./images/news1.jpg" alt="netflix-cinema"></div>
+                                <a id="trailer1">
+                                    <div class="img" id="image1"></div>
+                                </a>
+                                
                                 <aside class="new-abstract">
-                                    <h5><b>Netflix revela lançamentos para os cinemas</b></h5>
-                                    <p>Serviço de streaming planeja lançar filmes nos cinemas antes de sua chegada à
-                                        plataforma online; ideia é cumprir os requisitos para que alguns desses longas
-                                        possam concorrer ao Oscar.</p>
+                                    <h5><b id="tt1"></b></h5>
+                                    <p id="resume1"></p>
                                     <div class="keys">
-                                        <span>netflix</span>
-                                        <span>oscar</span>
-                                        <span>cinema</span>
+                                        <span id="nota1"></span>
                                     </div>
                                 </aside>
                             </div>
@@ -365,16 +199,15 @@
                         <div>
                             <hr>
                             <div class="new">
-                                <div class="img"><img src="./images/new2.jpg" alt="netflix-cinema"></div>
+                                <a id="trailer2">
+                                    <div class="img" id="image2"></div>
+                                </a>
+                                
                                 <aside class="new-abstract">
-                                    <h5><b>15 cinemas que são verdadeiras obras de arte</b></h5>
-                                    <p>O próprio conceito do Cinema Paradiso já é inusitado: chamado de “cinema
-                                        silencioso”, os espectadores usam fones de ouvido que funcionam via
-                                        Bluetooth para acompanhar o filme que corre na tela.</p>
+                                    <h5><b id="tt2"></b></h5>
+                                    <p id="resume2"></p>
                                     <div class="keys">
-                                        <span>cinemas</span>
-                                        <span>tecnologia</span>
-                                        <span>arte</span>
+                                        <span id="nota2"></span>
                                     </div>
 
                                 </aside>
@@ -384,15 +217,15 @@
                         <div>
                             <hr>
                             <div class="new">
-                                <div class="img"><img src="./images/new3.jpg" alt="netflix-cinema"></div>
+                                <a id="trailer3">
+                                    <div class="img" id="image3"></div>
+                                </a>
+                                
                                 <aside class="new-abstract">
-                                    <h5><b>'Parasita' é o grande vencedor do Oscar 2020</b></h5>
-                                    <p>A dramédia sul-coreana sobre diferença de classes recebeu quatro estatuetas e se
-                                        tornou o primeiro não falado em língua inglesa a vencer como Melhor Filme.</p>
+                                    <h5><b id="tt3"></b></h5>
+                                    <p id="resume3"></p>
                                     <div class="keys">
-                                        <span>LA</span>
-                                        <span>oscar</span>
-                                        <span>oriental</span>
+                                        <span id="nota3"></span>
                                     </div>
                                 </aside>
                             </div>
@@ -460,6 +293,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -32,12 +32,13 @@
 {
     text-align: end;
 }
-.c-img iframe{
+#img-poster{
     width: 100%;
     border-color: #fdc40a;
     border-style: double;
     border-width: 7px;
     border-radius: 20px;
+    height: 20rem;
     
 }
 .carousel-details
