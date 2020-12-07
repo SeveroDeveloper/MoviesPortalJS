@@ -9,13 +9,15 @@ window.onload = function carregaCinemas() {
 
     let pop = new XMLHttpRequest();
     pop.onload = emDestaque;
-    pop.open('GET',`https://api.themoviedb.org/3/movie/popular?api_key=${KEY}&language=pt-BR`);
+    pop.open('GET', `https://api.themoviedb.org/3/movie/popular?api_key=${KEY}&language=pt-BR`);
     pop.send();
 
     let rate = new XMLHttpRequest();
     rate.onload = criticaAmou;
-    rate.open('GET',`https://api.themoviedb.org/3/movie/top_rated?api_key=${KEY}&language=pt-BR`);
+    rate.open('GET', `https://api.themoviedb.org/3/movie/top_rated?api_key=${KEY}&language=pt-BR`);
     rate.send();
+
+
 }
 function nosCinemas() {
     for (let i = 1; i < 4; i++) {
@@ -42,8 +44,7 @@ function nosCinemas() {
     }
 }
 
-function emDestaque()
-{
+function emDestaque() {
     for (let i = 1; i <= 4; i++) {
         let poster = document.getElementById(`poster${i}`);
 
@@ -57,8 +58,7 @@ function emDestaque()
     mais.setAttribute("href", `http://www.adorocinema.com/filmes/em-cartaz/melhores-filmes/notas-espectadores/`);
 }
 
-function criticaAmou()
-{
+function criticaAmou() {
     for (let i = 1; i < 4; i++) {
         let divImg = document.getElementById(`image${i}`);
         let divTitle = document.getElementById(`tt${i}`);
@@ -80,3 +80,11 @@ function criticaAmou()
     }
 }
 
+
+let sb = document.getElementById("searchb");
+let ss = document.getElementById("searchs");
+let stb = document.getElementById("searchtb");
+let sts = document.getElementById("searchts");
+
+sb.onclick = () => window.open(`https://www.google.com/search?&q=${stb.value}`);
+ss.onclick = () => window.open(`https://www.google.com/search?&q=${sts.value}`);
